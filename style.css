@@ -72,6 +72,10 @@ header p:last-child{
     margin-right: 50px;
 }
 
+header p:last-child:hover{
+    cursor: pointer;
+}
+
 header .open_menu{
     position: relative;
 }

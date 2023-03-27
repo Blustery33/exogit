@@ -1,9 +1,13 @@
 
-const element = document.querySelector('.open_menu');
 
-element.addEventLister("click", openmenu)
+  window.addEventListener("DOMContentLoaded", (event) => {  
+    const element = document.querySelector('.open_menu');
 
-function openmenu() {
-    const target = document.querySelector('.menu_container');
-    target.classList.toggle(".openmenu");
-  }
+    element.addEventLister("click", openmenu);
+    
+    function openmenu() {
+        const target = document.querySelector('.menu_container');
+        target.classList.toggle(".openmenu");
+    }  
+      
+});
